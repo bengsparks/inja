@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 # See https://cmake.org/cmake/help/latest/policy/CMP0077.html
 # This allows for setting option variables externally, when this project
@@ -6,7 +6,6 @@ cmake_minimum_required(VERSION 3.5)
 cmake_policy(SET CMP0077 NEW)
 
 project(inja LANGUAGES CXX VERSION 3.5.0)
-
 
 option(BUILD_TESTING "Build unit tests" ON)
 option(COVERALLS "Generate coveralls data" OFF)
